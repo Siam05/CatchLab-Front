@@ -115,6 +115,11 @@ export default {
         opacity: .7;
     }
 
+    .thumbnail:hover .yt-icon {
+        opacity: 1;
+        @apply rounded-full shadow-lg;
+    }
+
     .search-overlay {
         height: 100vh;
         width: 100vw;
