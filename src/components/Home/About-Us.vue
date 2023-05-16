@@ -1,29 +1,29 @@
 <template>
-    <div class="mb-12 lg:mb-0 lg:py-32">
-        <div class="flex justify-center -mt-28 lg:-mt-10">
-            <div class="container flex flex-col lg:flex-row gap-60 lg:gap-20 px-4 lg:px-12 xl:px-20">
-                <div class="xl:w-2/5">
-                    <div class="w-full">
+    <div class="mb-12 lg:mb-0 lg:py-24 xl:py-40">
+        <div class="flex justify-center -mt-28 lg:-mt-4 xl:-mt-16 2xl:-mt-20">
+            <div class="container flex flex-col lg:flex-row gap-60 lg:gap-12 xl:gap-20 px-4 xl:px-20">
+                <div class="lg:w-2/5">
+                    <div class="w-full mobile-view sm:px-12 md:px-28 lg:px-0">
                         <div class="flex justify-end">
                             <img class="h-96 w-80 rounded-2xl object-cover" src="../../assets/about-us/1.jpg" alt=""> 
                         </div>
-                        <div class="flex justify-start lg:ml-20 -mt-40">
+                        <div class="flex justify-start -mt-32">
                             <img class="h-60 bottom-img-size rounded-2xl border-8 border-background object-cover" src="../../assets/about-us/3.jpg" alt=""> 
                         </div>
-                        <div class="flex justify-start lg:ml-6 img-rounded">
+                        <div class="flex justify-start img-rounded">
                             <img class="h-56 w-56 rounded-full border-8 border-background object-cover" src="../../assets/about-us/2.jpg" alt=""> 
                         </div>
                     </div>
                 </div>
 
-                <div class="xl:w-3/5 text-left flex flex-col items-center lg:items-start">
+                <div class="lg:w-3/5 text-left flex flex-col items-center lg:items-start">
                     <div class="flex items-center justify-center bg-white rounded-full shadow-md w-40 py-2">
                         <i class="pi pi-circle-fill text-primary" style="font-size: 0.4rem"></i>
                         <p class="text-sm px-2.5 text-gray-600">ABOUT US</p>
                         <i class="pi pi-circle-fill text-primary" style="font-size: 0.4rem"></i>
                     </div>
 
-                    <div class="pt-4 lg:pt-6 text-2xl xl:text-4xl text-center">
+                    <div class="pt-4 lg:pt-6 text-2xl xl:text-4xl text-center lg:text-left">
                         <div class="flex font-semibold">
                             <p class="text-primary">Introduction</p>
                             <p class="pl-2">To Best</p>
@@ -74,5 +74,12 @@ export default {}
 
 .bottom-img-size {
     width: 360px;
+}
+
+
+@media screen and (min-width: 541px) and (max-width: 640px) {
+    .mobile-view {
+        @apply px-8;
+    }
 }
 </style> 

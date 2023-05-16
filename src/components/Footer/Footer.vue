@@ -25,17 +25,17 @@
                     </div>
                     
                     <div class="lg:w-1/3 pt-8 lg:pt-0 text-gray-300">
-                        <p class="font-semibold">Contact Information</p>
-                        <p class="pt-2 text-sm">Feel free to contact & reach us</p>
-                        <div class="pt-4 text-sm">
-                        <div class="flex">
-                                <i class="fa-solid fa-location-dot w-6 self-center text-primary"></i>
-                                <p>{{ site_settings.address }}</p>
-                        </div>
-                        <div class="flex py-2">
-                                <i class="fa-sharp fa-solid fa-phone w-6 self-center text-primary"></i>
-                                <a class="hover:text-primary" :href="`tel:${site_settings.phone_number}`">+88{{ site_settings.phone_number }}</a>
-                        </div>
+                        <p class="text-xl font-semibold">Contact Information</p>
+                        <p class="py-4 text-sm">Feel free to contact & reach us</p>
+                        <div class="text-sm">
+                            <div class="flex">
+                                    <i class="fa-solid fa-location-dot w-6 self-center text-primary"></i>
+                                    <p>{{ site_settings.address }}</p>
+                            </div>
+                            <div class="flex py-2">
+                                    <i class="fa-sharp fa-solid fa-phone w-6 self-center text-primary"></i>
+                                    <a class="hover:text-primary" :href="`tel:${site_settings.phone_number}`">{{ site_settings.phone_number }}</a>
+                            </div>
                             <div class="flex">
                                 <i class="fa-solid fa-envelope w-6 self-center text-primary"></i>
                                 <a class="hover:text-primary" :href="`mailto:${site_settings.email}`">{{ site_settings.email }}</a> 
@@ -47,7 +47,7 @@
                 <!-- Bottom portion -->
                 <div class="py-6 border-t border-gray-300">
                     <p class="text-gray-300 text-sm sm:text-base">
-                        © 2022 Developed by <a class="tag-color" href="https://www.facebook.com/catchbitflex" target="_blank" >BitFlex </a> | <a class="tag-color" href="https://www.facebook.com/catchbangladesh" target="_blank" >Catch Bangladesh</a>
+                        © <a class="text-white hover:text-primary font-semibold"> Catch Lab</a> All Rights Reserved | Developed by <a class="text-white hover:text-primary font-semibold" href="https://www.facebook.com/catchbitflex" target="_blank" >BitFlex </a> | A Sister Concern of <a class="text-white hover:text-primary font-semibold">Catch INC.</a>
                     </p>
                 </div>
             </div>

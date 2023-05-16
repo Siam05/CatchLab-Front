@@ -2,7 +2,7 @@
     <div>
         <div class="background">
             <div class="h-full w-full flex justify-center blurColor lg:pb-16">
-                <div class="container xl:flex w-full px-4 lg:px-12 xl:px-20 py-12 lg:py-24 gap-20">
+                <div class="container xl:flex w-full px-4 lg:px-12 xl:px-20 py-12 lg:py-24">
                     <div class="xl:w-1/2 flex flex-col items-center lg:items-start">
                         <div class="flex items-center justify-center bg-white rounded-full shadow-md w-44 py-2">
                             <i class="pi pi-circle-fill text-primary" style="font-size: 0.4rem"></i>

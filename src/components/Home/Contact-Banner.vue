@@ -5,7 +5,7 @@
                 <i class="pi pi-phone p-3 border border-white rounded-full" style="font-size: 1.5rem"></i>
                 <div>
                     <p class="text-xs font-semibold text-red-700">GET A FREE CONSULTATION</p>
-                    <a class="text-xl sm:text-2xl hover:text-primary" :href="`tel:${site.phone_number}`">+88{{ site.phone_number }}</a>
+                    <a class="text-xl sm:text-2xl hover:text-primary" :href="`tel:${site.phone_number}`">{{ site.phone_number }}</a>
                 </div>
             </div>
 

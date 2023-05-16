@@ -5,8 +5,8 @@
             <div class="container card pt-10">
                 <Carousel :value="clients" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions" :autoplayInterval="3000">
                     <template #item="slotProps">
-                        <div class="flex justify-center p-2">
-                            <img :src="host + slotProps.data.logo" :alt="slotProps.data.name" class="h-20" />
+                        <div class="flex justify-center px-2">
+                            <img :src="host + slotProps.data.logo" :alt="slotProps.data.name" class="h-16" />
                         </div>
                     </template>
                 </Carousel>
