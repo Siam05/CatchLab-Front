@@ -2,7 +2,7 @@
     <div>
         <div class="background">
             <div class="h-full w-full blur-background flex justify-center items-center">
-                <p class="text-4xl text-white font-semibold pt-20">Portfolio List</p>
+                <p class="px-4 text-2xl lg:text-4xl text-white font-semibold pt-20">A Showcase of Our Creative Brilliance</p>
             </div>
         </div>
 

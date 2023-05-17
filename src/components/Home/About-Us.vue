@@ -25,25 +25,25 @@
 
                     <div class="pt-4 lg:pt-6 text-2xl xl:text-4xl text-center lg:text-left">
                         <div class="flex font-semibold">
-                            <p class="text-primary">Introduction</p>
-                            <p class="pl-2">To Best</p>
+                            <p>Why We're the Perfect Match for Your Creative Project?</p>
                         </div>
-                        <p class="font-semibold">Digital Agency!</p>
                     </div>
 
                     <div class="pt-4 lg:pt-6">
-                        <p class="text-gray-600 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima illum impedit officia. Sit accusamus consectetur accusantium! Asperiores sit eaque odit pariatur culpa ratione sequi nihil explicabo quod, dignissimos, facilis magni?</p>
+                        <p class="text-gray-600 text-sm">At our animation and post-production agency, we have a passion for bringing ideas to life through stunning visuals. With our expertise and commitment to quality, we are the ideal partner to help you achieve your creative goals.</p>
                     </div>
                     
                     <div class="xl:flex pt-4 lg:pt-6">
                         <div class="text-sm text-gray-600 flex flex-col items-start">
-                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Contrary to popular belief, simply random text</p>
-                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Contrary to Lorem Ipsum is not simply random text</p>
-                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Contrary to ponot simply random text</p>
-                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Lorem Ipsum is not simply random text</p>
+                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Expertise: Experienced animators and post-production experts.</p>
+                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Creativity: Passionate about stunning content that captures your brand.
+</p>
+                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Quality: High-quality work that exceeds expectations.</p>
+                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Customer-focused: Put clients' needs first and work closely with them.</p>
+                            <p class="py-0.5"><i class="pi pi-check-circle pr-2 text-primary" style="font-size: 0.9rem"></i>Global Reach: Experienced in catering to clients from different cultures.</p>
                         </div>
 
-                        <div class="lg:ml-16 flex items-center justify-center mt-4 lg:mt-0">
+                        <div class="lg:ml-8 flex items-center justify-center mt-4 xl:mt-0">
                             <div class="p-4 text-center font-semibold border-2 border-gray-300 rounded-2xl">
                                 <p class="text-primary text-4xl">5</p>
                                 <p class="text-gray-500">YEARS</p>
