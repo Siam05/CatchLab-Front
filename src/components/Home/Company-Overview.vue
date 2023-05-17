@@ -4,16 +4,16 @@
             <div class="flex grid grid-cols-4 w-full">
                 <div class="flex flex-col items-center">
                     <img class="h-16" src="../../assets/icons/letter.png" alt="">
-                    <p class="text-5xl font-semibold pt-4 pb-2">1200k+</p>
+                    <p class="text-5xl font-semibold pt-4 pb-2">1200+</p>
                     <p class="text-sm">Completed Projects</p>
                 </div>
                 <div class="border-x border-background flex flex-col items-center">
                     <img class="h-16" src="../../assets/icons/people.png" alt="">
-                    <p class="text-5xl font-semibold pt-4 pb-2">120k+</p>
+                    <p class="text-5xl font-semibold pt-4 pb-2">120+</p>
                     <p class="text-sm">Happy Customer</p>
                 </div>
                 <div class="border-r border-background flex flex-col items-center">
-                    <img class="h-16" src="../../assets/icons/trophy.png" alt="">
+                    <img class="h-16" src="../../assets/icons/earth-grid.png" alt="">
                     <p class="text-5xl font-semibold pt-4 pb-2">14+</p>
                     <p class="text-sm">Countries Served</p>
                 </div>
@@ -28,22 +28,22 @@
        <div class="my-2 flex lg:hidden container grid grid-cols-1 gap-6 px-4 xl:px-20">
             <div class="border-b border-background pb-4 flex flex-col items-center">
                 <img class="h-12" src="../../assets/icons/letter.png" alt="">
-                <p class="text-3xl font-semibold pt-4 pb-2">3k+</p>
+                <p class="text-3xl font-semibold pt-4 pb-2">1200+</p>
                 <p class="text-sm">Completed Projects</p>
             </div>
             <div class="border-b border-background pb-4 flex flex-col items-center">
                 <img class="h-12" src="../../assets/icons/people.png" alt="">
-                <p class="text-3xl font-semibold pt-4 pb-2">20k+</p>
+                <p class="text-3xl font-semibold pt-4 pb-2">120+</p>
                 <p class="text-sm">Happy Customer</p>
             </div>
             <div class="border-b border-background pb-4 flex flex-col items-center">
-                <img class="h-12" src="../../assets/icons/trophy.png" alt="">
-                <p class="text-3xl font-semibold pt-4 pb-2">13+</p>
-                <p class="text-sm">Award Winning</p>
+                <img class="h-12" src="../../assets/icons/earth-grid.png" alt="">
+                <p class="text-3xl font-semibold pt-4 pb-2">14+</p>
+                <p class="text-sm">Countries Served</p>
             </div>
             <div class="flex flex-col items-center">
                 <img class="h-12" src="../../assets/icons/rating.png" alt="">
-                <p class="text-3xl font-semibold pt-4 pb-2">99%</p>
+                <p class="text-3xl font-semibold pt-4 pb-2">100%</p>
                 <p class="text-sm">Satisfaction Rate</p>
             </div>
        </div>
