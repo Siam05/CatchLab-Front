@@ -20,13 +20,13 @@
                     <div class="flex justify-between gap-4 pt-3" :class="{ 'header-bottom': !view.topOfPage }">
                         <div class="flex items-center gap-4 text-sm">
                             <a target="_blank" class="flex items-center" :href="site_settings.fb_link"><i class="fa-brands fa-square-facebook" style="font-size: 1.1rem;"></i></a>
-                            <a target="_blank" class="flex items-center" :href="site_settings.fb_link"><i class="fa-brands fa-linkedin" style="font-size: 1.1rem;"></i></a>
+                            <a target="_blank" class="flex items-center" :href="site_settings.linkedIn_link"><i class="fa-brands fa-linkedin" style="font-size: 1.1rem;"></i></a>
                             <a target="_blank" class="flex items-center" :href="`mailto:${site_settings.email}`"><i class="fa-solid fa-envelope" style="font-size: 1.1rem;"></i></a>
                         </div>
                         <div>
-                            <router-link to="/portfolio">
+                            <a href="https://cutt.ly/catchlabprofile" target="_blank">
                                 <button class="px-2 py-1 bg-primary rounded-2xl text-sm lg:button">Company Profile</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -48,13 +48,13 @@
                     <div class="flex gap-8">
                         <div class="flex items-center gap-6 text-sm">
                             <a target="_blank" class="flex items-center" :href="site_settings.fb_link"><i class="fa-brands fa-square-facebook" style="font-size: 1.2rem;"></i></a>
-                            <a target="_blank" class="flex items-center" :href="site_settings.fb_link"><i class="fa-brands fa-linkedin" style="font-size: 1.2rem;"></i></a>
+                            <a target="_blank" class="flex items-center" :href="site_settings.linkedIn_link"><i class="fa-brands fa-linkedin" style="font-size: 1.2rem;"></i></a>
                             <a target="_blank" class="flex items-center" :href="`mailto:${site_settings.email}`"><i class="fa-solid fa-envelope" style="font-size: 1.2rem;"></i></a>
                         </div>
                         <div>
-                            <router-link to="/portfolio"> 
+                            <a href="https://cutt.ly/catchlabprofile" target="_blank">
                                 <button class="button">Company Profile</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>

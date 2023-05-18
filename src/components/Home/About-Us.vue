@@ -5,13 +5,13 @@
                 <div class="lg:w-2/5">
                     <div class="w-full mobile-view sm:px-12 md:px-28 lg:px-0">
                         <div class="flex justify-end">
-                            <img class="h-96 w-80 rounded-2xl object-cover" src="../../assets/about-us/1.jpg" alt=""> 
+                            <img class="h-96 w-80 rounded-2xl object-cover" src="../../assets/about-us/2.jpg" alt=""> 
                         </div>
                         <div class="flex justify-start -mt-32">
                             <img class="h-60 bottom-img-size rounded-2xl border-8 border-background object-cover" src="../../assets/about-us/3.jpg" alt=""> 
                         </div>
                         <div class="flex justify-start img-rounded">
-                            <img class="h-56 w-56 rounded-full border-8 border-background object-cover" src="../../assets/about-us/2.jpg" alt=""> 
+                            <img class="h-56 w-56 rounded-full border-8 border-background object-cover" src="../../assets/about-us/1.jpg" alt=""> 
                         </div>
                     </div>
                 </div>

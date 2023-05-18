@@ -16,7 +16,7 @@
                                 <a target="_blank" class="flex items-center text-gray-300" :href="site_settings.fb_link"><i class="fa-brands fa-square-facebook" style="font-size: 1rem;"></i></a>
                             </div>
                             <div class="rounded-full bg-primary w-8 h-8 flex justify-center">
-                                <a target="_blank" class="flex items-center text-gray-300" :href="site_settings.fb_link"><i class="fa-brands fa-linkedin" style="font-size: 1rem;"></i></a>
+                                <a target="_blank" class="flex items-center text-gray-300" :href="site_settings.linkedIn_link"><i class="fa-brands fa-linkedin" style="font-size: 1rem;"></i></a>
                             </div>
                             <div class="rounded-full bg-primary w-8 h-8 flex justify-center">
                                 <a target="_blank" class="flex items-center text-gray-300" :href="`mailto:${site_settings.email}`"><i class="fa-solid fa-envelope" style="font-size: 1rem;"></i></a>
@@ -36,10 +36,18 @@
                                     <i class="fa-sharp fa-solid fa-phone w-6 self-center text-primary"></i>
                                     <a class="hover:text-primary" :href="`tel:${site_settings.phone_number}`">{{ site_settings.phone_number }}</a>
                             </div>
-                            <div class="flex">
+                            <div class="flex pb-2">
                                 <i class="fa-solid fa-envelope w-6 self-center text-primary"></i>
                                 <a class="hover:text-primary" :href="`mailto:${site_settings.email}`">{{ site_settings.email }}</a> 
                             </div>
+                            <div class="flex">
+                                <i class="fa-solid fa-suitcase w-6 self-center text-primary"></i>
+                                <a class="hover:text-primary" href="/career" target="_blank">Join Us (Career)</a> 
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <a class="pt-4" v-if="site_settings.banner1_img" :href="site_settings.banner1_link" target="_blank"><img class="h-10 lg:h-12" :src="host + site_settings.banner1_img" alt=""></a>
+                            <a class="pt-4" v-if="site_settings.banner2_img" :href="site_settings.banner2_link" target="_blank"><img class="h-10 lg:h-12" :src="host + site_settings.banner2_img" alt=""></a>
                         </div>
                     </div>
                 </div>

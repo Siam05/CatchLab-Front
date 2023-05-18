@@ -4,6 +4,7 @@ import portfolio from "./modules/portfolio/portfolio";
 import services from './modules/home/services';
 import clients from './modules/home/client';
 import siteSettings from './modules/home/siteSettings';
+import career from './modules/career/career';
 
 const store = createStore({
   modules: {
@@ -11,6 +12,7 @@ const store = createStore({
     portfolio,
     services,
     siteSettings,
+    career
   }
 })
 

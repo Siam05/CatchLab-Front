@@ -1,7 +1,7 @@
 <template>
     <div class="w-full bg-gray-100 py-12 lg:py-24">
         <div class="w-full flex flex-col justify-center items-center px-4 lg:px-12 xl:px-20">
-            <p class="text-xl sm:text-2xl font-semibold">Trusted By Founders at 100+ Companies, Including...</p>
+            <p class="text-xl sm:text-2xl font-semibold">Trusted By Founders at 120+ Companies, Including...</p>
             <div class="container card pt-10">
                 <Carousel :value="clients" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions" :autoplayInterval="3000">
                     <template #item="slotProps">

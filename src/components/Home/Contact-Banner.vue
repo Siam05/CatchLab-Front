@@ -14,7 +14,9 @@
             </div>
 
             <div class="lg:w-1/4 flex justify-center items-center">
-                <button class="button w-full">GET A QUOTE</button>
+                <a class="w-full" :href="`mailto:${site.email}`">
+                    <button class="button w-full">GET A QUOTE</button>
+                </a> 
             </div>
         </div>
     </div>

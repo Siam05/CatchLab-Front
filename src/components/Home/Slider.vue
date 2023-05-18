@@ -40,6 +40,7 @@ export default {}
         object-fit: cover;
         width: 100%;
         height: 75vh;
+        background-color: #161616;
     }
 
     .background-color {
