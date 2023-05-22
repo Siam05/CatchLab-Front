@@ -3,7 +3,7 @@ import Home from "../pages/home/index.vue";
 import Portfolio from "../pages/portfolio/index.vue";
 import PortfolioByCategory from "../pages/portfolio/portfolioByCategory/[id].vue";
 import Career from "../pages/career/index.vue";
-import JobDetails from "../pages/career/jobDetails/[id].vue"
+import JobDetails from "../pages/career/jobDetails/[id].vue";
 
 const routes = [
     {
@@ -11,6 +11,7 @@ const routes = [
         name: 'Home',
         component: Home
     },
+
     {
         path: '/portfolio',
         name: 'Portfolio',
@@ -19,6 +20,7 @@ const routes = [
             isAllActive: true
         }
     },
+
     {
         path: '/portfolio/:id',
         name: 'PortfolioByCategory',
@@ -27,22 +29,17 @@ const routes = [
             isCategoryActive: true
         }
     },
+
     {
         path: '/career',
         name: 'Career',
-        component: Career,
-        meta: {
-            isAllActive: true
-        }
+        component: Career
     },
 
     {
         path: '/career/job-details/:id',
         name: 'JobDetails',
-        component: JobDetails,
-        meta: {
-            isCategoryActive: true
-        }
+        component: JobDetails
     },
 ]
 

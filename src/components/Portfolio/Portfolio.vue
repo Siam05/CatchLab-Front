@@ -103,6 +103,7 @@ export default {
     .background {
         background-image: url("../../assets/bannerImage/top-view-workspace-with-laptop-notebook_11zon.jpg");
         background-size: cover;
+        object-fit: cover;
         background-repeat: no-repeat;
         height: 390px
     }

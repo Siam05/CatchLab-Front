@@ -158,22 +158,4 @@ export default {
 }
 </script>
 
-<style scoped>
-    .background {
-        background-image: url("../../assets/about-us/2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 390px
-    }
-
-    .blur-background {
-        background-color: #616161ad;
-    }
-
-
-    @media screen and (max-width: 640px) {
-        .background {
-            height: 320px
-        }
-    }
-</style> 
+<style scoped></style> 

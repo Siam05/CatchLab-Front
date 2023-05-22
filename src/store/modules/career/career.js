@@ -50,20 +50,7 @@ const actions = {
         let data = new FormData();
         let payloadData = buildFormData(data, payload);
 
-        let response = await axios.post(V1API.create_job_application, payloadData
-            // {
-            //     name: payloadData.apply_data.name,
-            //     position: payloadData.position,
-            //     email: payloadData.apply_data.email,
-            //     phone: payloadData.apply_data.phone,
-            //     linkedIn: payloadData.apply_data.linkedIn,
-            //     facebook: payloadData.apply_data.facebook,
-            //     portfolio: payloadData.apply_data.portfolio,
-            //     why_join: payloadData.apply_data.why_join,
-            //     what_sets_apart: payloadData.apply_data.what_sets_apart,
-            //     cv: payloadData.apply_data.cv
-            // }
-            , config).then(result => {
+        let response = await axios.post(V1API.create_job_application, payloadData, config).then(result => {
             let item = result.data
             commit('SET_APPLICATION', item)
             return result

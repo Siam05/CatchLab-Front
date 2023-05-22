@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="background">
-            <div class="h-full w-full blur-background flex justify-center items-center">
+            <div class="h-full w-full flex justify-center items-center">
                 <p class="text-2xl lg:text-4xl text-white font-semibold pt-20">Career | Join Us</p>
             </div>
         </div>
@@ -12,7 +12,7 @@
                     <p class="font-semibold text-lg text-primary">CAREERS</p>
                     <div>
                         <p class="pt-6 text-left text-gray-600">
-                            Joining Catch Bangladesh would be an exciting and at the same time an adventurous journey for you. If you have the right expertise that we look for, then we have the right opportunity for you. Go through our list of available vacancies and choose the perfect fit for yourself. A thrilling experience waits for you.
+                            Joining Catch Lab would be an exciting and at the same time an adventurous journey for you. If you have the right expertise that we look for, then we have the right opportunity for you. Go through our list of available vacancies and choose the perfect fit for yourself. A thrilling experience waits for you.
                         </p>
 
                         <div class="w-full flex flex-col lg:flex-row gap-8 pt-6 lg:pt-10">
@@ -40,7 +40,7 @@
                                     <p class="font-semibold">Benefits and Rewards</p>
                                 </div>
                                 <p class="pt-5 text-gray-500 text-sm">
-                                    Working with Catch Lab provides you a great opportunity of developing your existing skills at the same time acquiring new ones. We believe a coherent team can bring out the best result. So, you will be improving your cooperation skills, learning to be supportive and respectful to each other, being empathetic and compassionate. Catch Lab always puts efforts to maintain a family-like relation within its team members, so that everyone feels more connected and become even more sincere towards their work. Apart from the intangible benefits, the tangible benefit which is the monetary one is also significant. We always prioritize the fact of appreciating people with everything they deserve. Moreover, you will get the chance to be mentored by people who are experienced in their respective fields. In every manner, Catch Lab has so many things to offer which you can carry for an eternal period of time.
+                                    Working with Catch Lab provides you a great opportunity of developing your existing skills at the same time acquiring new ones. We believe a coherent team can bring out the best result. So, you will be improving your cooperation skills, learning to be supportive and respectful to each other, being empathetic and compassionate. We always prioritize the fact of appreciating people with everything they deserve. Moreover, you will get the chance to be mentored by people who are experienced in their respective fields. In every manner, Catch Lab has so many things to offer which you can carry for an eternal period of time.
                                 </p>
                             </div>
                         </div>

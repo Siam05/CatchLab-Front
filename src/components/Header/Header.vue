@@ -24,8 +24,8 @@
                             <a target="_blank" class="flex items-center" :href="`mailto:${site_settings.email}`"><i class="fa-solid fa-envelope" style="font-size: 1.1rem;"></i></a>
                         </div>
                         <div>
-                            <a href="https://cutt.ly/catchlabprofile" target="_blank">
-                                <button class="px-2 py-1 bg-primary rounded-2xl text-sm lg:button">Company Profile</button>
+                            <a :href="site_settings.company_profile" target="_blank">
+                                <button class="px-2 py-1 bg-primary rounded-2xl text-sm">Company Profile</button>
                             </a>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <a target="_blank" class="flex items-center" :href="`mailto:${site_settings.email}`"><i class="fa-solid fa-envelope" style="font-size: 1.2rem;"></i></a>
                         </div>
                         <div>
-                            <a href="https://cutt.ly/catchlabprofile" target="_blank">
+                            <a :href="site_settings.company_profile" target="_blank">
                                 <button class="button">Company Profile</button>
                             </a>
                         </div>

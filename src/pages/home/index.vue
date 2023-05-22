@@ -6,6 +6,7 @@
         <ContactBanner class="my-12 lg:-mt-16" />
         <AboutUs class="mt-40 lg:mt-20" />
         <ClientSlider/>
+        <Concerns />
         <CompanyOverview />
         <Footer />
     </div>
@@ -17,7 +18,8 @@ import Slider from '../../components/Home/Slider.vue';
 import ContactBanner from '../../components/Home/Contact-Banner.vue';
 import AboutUs from '../../components/Home/About-Us.vue';
 import Services from '../../components/Home/Services.vue';
-import ClientSlider from '../../components/Home/Client-Slider.vue'
+import ClientSlider from '../../components/Home/Client-Slider.vue';
+import Concerns from '../../components/Home/Concerns.vue';
 import CompanyOverview from '../../components/Home/Company-Overview.vue';
 import Footer from '../../components/Footer/Footer.vue';
 
@@ -29,6 +31,7 @@ export default {
         AboutUs,
         Services,
         CompanyOverview,
+        Concerns,
         ClientSlider,
         Footer
     }
