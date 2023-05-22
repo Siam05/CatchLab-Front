@@ -55,7 +55,7 @@
                 <!-- Bottom portion -->
                 <div class="py-6 border-t border-gray-300">
                     <p class="text-gray-300 text-sm sm:text-base">
-                        © <a class="text-white hover:text-primary font-semibold"> Catch Lab</a> All Rights Reserved | Developed by <a class="text-white hover:text-primary font-semibold" href="https://www.facebook.com/catchbitflex" target="_blank" >BitFlex </a> | A Sister Concern of <a class="text-white hover:text-primary font-semibold">Catch INC.</a>
+                        © <a class="text-white hover:text-primary font-semibold"> CatchLab</a> All Rights Reserved | Developed by <a class="text-white hover:text-primary font-semibold" href="https://www.facebook.com/catchbitflex" target="_blank" >BitFlex </a> | A Sister Concern of <a class="text-white hover:text-primary font-semibold">Catch INC.</a>
                     </p>
                 </div>
             </div>

@@ -9,10 +9,9 @@
         <div class="flex justify-center bg-background">
             <div class="container px-4 lg:px-12 py-14 xl:px-20 2xl:px-24 xl:py-28">
                 <div>
-                    <p class="font-semibold text-lg text-primary">CAREERS</p>
                     <div>
-                        <p class="pt-6 text-left text-gray-600">
-                            Joining Catch Lab would be an exciting and at the same time an adventurous journey for you. If you have the right expertise that we look for, then we have the right opportunity for you. Go through our list of available vacancies and choose the perfect fit for yourself. A thrilling experience waits for you.
+                        <p class="text-left text-gray-600">
+                            Joining CatchLab would be an exhilarating and adventurous journey for you. If you possess the expertise we are seeking, then we have the perfect opportunity waiting for you. Explore our list of available vacancies and find the ideal match for yourself. Prepare for a thrilling experience ahead.
                         </p>
 
                         <div class="w-full flex flex-col lg:flex-row gap-8 pt-6 lg:pt-10">
@@ -22,7 +21,7 @@
                                     <p class="font-semibold">Why should you join us?</p>
                                 </div>
                                 <p class="pt-5 text-gray-500 text-sm">
-                                    If you are looking for a company that provides the opportunity to flourish your talents and showcase your creativity with the highest amount of flexibility, then look no further. Catch Lab is here for you. Working with us will not only benefit you financially but also give a lifelong experience and help you develop your real-life skills as well. We ensure the utmost friendly environment for every single employee and consider the whole team as a family.
+                                    If you seek a company that offers the platform to nurture your talents, unleash your creativity, and enjoy unparalleled flexibility, your search ends here. CatchLab is your destination. By joining us, you'll not only reap financial rewards but also gain a lifetime of invaluable experiences and develop essential real-life skills. We prioritize a friendly and supportive environment for each and every employee, fostering a sense of family within the entire team.
                                 </p>
                             </div>
                             <div class="lg:w-1/3 text-left p-5 rounded-lg shadow-xl">
@@ -31,7 +30,7 @@
                                     <p class="font-semibold">Whom do we look for?</p>
                                 </div>
                                 <p class="pt-5 text-gray-500 text-sm">
-                                    Anyone, even you. Yes, if you are passionate about your work, if you are ready for taking up challenges and conquering them if you have the enthusiasm to learn new things as well as to share your wisdom if you are a person who believes in sharing interpersonal skills and growing together, then you are the perfect match that we are looking for.
+                                    At CatchLab, we believe that anyone, including you, can be the perfect fit if you possess a passion for your work, thrive on challenges, embrace continuous learning, and are eager to share your wisdom and foster personal growth, making us an ideal match for each other. Together, let's embark on an extraordinary journey of collaboration and success.
                                 </p>
                             </div>
                             <div class="lg:w-1/3 text-left p-5 rounded-lg shadow-xl">
@@ -40,7 +39,7 @@
                                     <p class="font-semibold">Benefits and Rewards</p>
                                 </div>
                                 <p class="pt-5 text-gray-500 text-sm">
-                                    Working with Catch Lab provides you a great opportunity of developing your existing skills at the same time acquiring new ones. We believe a coherent team can bring out the best result. So, you will be improving your cooperation skills, learning to be supportive and respectful to each other, being empathetic and compassionate. We always prioritize the fact of appreciating people with everything they deserve. Moreover, you will get the chance to be mentored by people who are experienced in their respective fields. In every manner, Catch Lab has so many things to offer which you can carry for an eternal period of time.
+                                    Joining CatchLab offers a unique opportunity to enhance your existing skills while acquiring new ones. Our focus on fostering a cohesive team enables you to develop cooperation, support, respect, empathy, and compassion. In addition to intangible benefits, we also prioritize fair monetary rewards, appreciating individuals for their contributions. Explore the myriad offerings at CatchLab that will leave a lasting impact on your professional journey.
                                 </p>
                             </div>
                         </div>
@@ -57,7 +56,6 @@
                                 </div>
                                 <div v-if="jobpost.job_description" class="pt-4 flex gap-2 sm:gap-4">
                                     <p class="py-2 px-4 bg-gray-200 rounded-lg font-semibold text-xs sm:text-sm text-center">{{ jobpost.job_description.type }}</p>
-                                    <p class="py-2 px-4 bg-gray-200 rounded-lg font-semibold text-xs sm:text-sm text-center">{{ jobpost.job_description.post }}</p>
                                     <p class="py-2 px-4 bg-gray-200 rounded-lg font-semibold text-xs sm:text-sm text-center">{{ jobpost.job_description.location }}</p>
                                 </div>
                             </div>
